@@ -33,7 +33,7 @@ The indicator shows several states of the crystalhd (Broadcom BCM70012 BCM70015)
 ##Installation
 
 * Clone or download the repository
-* cd into the repository and run this command (you may need to ``apt install checkinstall``): 
+* cd into the repository and run this command (you may need to ``sudo apt install checkinstall``): 
 ```shell
 chmod 755 usr/bin/indicator-crystalhd
 sudo checkinstall cp -R usr /
