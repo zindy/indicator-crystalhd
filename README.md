@@ -1,10 +1,12 @@
-#indicator-crystalhd
+# indicator-crystalhd
 
-This is an indicator for Broadcom Crystal HD adapter altered to run with 
+This is an indicator for Broadcom Crystal HD adapter altered to run with the latest updated driver from https://github.com/dbason/crystalhd (an active fork of https://github.com/yeradis/crystalhd).
 
-I've altered the code to work with latest updated driver from https://github.com/yeradis/crystalhd . I can run this indicator just fine in Ubuntu-Mate LTS 14.04 x64.
+This indicator was last tested with Cinnamon in Mint 18.1 x64 and ran just fine.
 
-Due to the updated driver, I could not find a way to determine whether it's working (decoding) or not. But at least you can switch on and off using this updated indicator.
+~~Due to the updated driver, I could not find a way to determine whether it's working (decoding) or not. But at least you can switch on and off using this updated indicator.~~
+
+The indicator should now correctly display whether the Crystal HD adapter is being used for decoding (indicator turns blue) or not (indicator turns white). With a right click, the indicator can also be used to enable or disable the crystalhd kernel module.
 
 --------
 
@@ -46,9 +48,9 @@ sudo checkinstall cp -R usr /
 
 ~~When the driver is running fine, it is possible to use the indicator. You can download it here: http://indicator-crystalhd.googlecode.com/files/indicator-crystalhd-1.24.tar.gz  ~~
 
-~~I've altered the code to work with latest updated driver from https://github.com/yeradis/crystalhd . I can run this indicator just fine in Ubuntu-Mate 14.14 x64.
+~~I've altered the code to work with latest updated driver from https://github.com/yeradis/crystalhd . I can run this indicator just fine in Ubuntu-Mate 14.14 x64.~~
 
-**EZ 2017-05-13** I've altered the code to work with latest updated driver from https://github.com/dbason/crystalhd . I can run this indicator just fine in Mint 18.1 x64 (cinnamon).
+**EZ 2017-05-13** I've altered the code to work with latest updated driver from https://github.com/dbason/crystalhd (an active fork of https://github.com/yeradis/crystalhd). I can run this indicator just fine in Mint 18.1 x64 (cinnamon).
 
 *** If you are looking for the original script, if the link above fails, you can download at https://github.com/Ardakilic/indicator-crystalhd/tree/02127772123e34023c8b2a11d6ea264a6aecd15d ***
 
