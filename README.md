@@ -33,9 +33,10 @@ The indicator shows several states of the crystalhd (Broadcom BCM70012 BCM70015)
 ##Installation
 
 * Clone or download the repository
-* cd into the repository and run this command: 
+* cd into the repository and run this command (you may need to ``apt install checkinstall``): 
 ```shell
-sudo cp usr / -R
+chmod 755 usr/bin/indicator-crystalhd
+sudo checkinstall cp -R usr /
 ```
 * Run `sudo indicator-crystalhd` at the terminal. It'll run and set itself to run at autostart.
 
@@ -45,7 +46,9 @@ sudo cp usr / -R
 
 ~~When the driver is running fine, it is possible to use the indicator. You can download it here: http://indicator-crystalhd.googlecode.com/files/indicator-crystalhd-1.24.tar.gz  ~~
 
-I've altered the code to work with latest updated driver from https://github.com/yeradis/crystalhd . I can run this indicator just fine in Ubuntu-Mate 14.14 x64.
+~~I've altered the code to work with latest updated driver from https://github.com/yeradis/crystalhd . I can run this indicator just fine in Ubuntu-Mate 14.14 x64.
+
+**EZ 2017-05-13** I've altered the code to work with latest updated driver from https://github.com/dbason/crystalhd . I can run this indicator just fine in Mint 18.1 x64 (cinnamon).
 
 *** If you are looking for the original script, if the link above fails, you can download at https://github.com/Ardakilic/indicator-crystalhd/tree/02127772123e34023c8b2a11d6ea264a6aecd15d ***
 
